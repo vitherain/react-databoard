@@ -1,25 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react';
+import './react-databoard.scss';
 
-class BoardHead extends Component {
-  render() {
-    return (
-      <thead>
-        <td>Hello</td>
-        <td>World</td>
-      </thead>
-    )
+
+export default React.createClass({
+  render: function() {
+    return <div className="react-databoard">Hello World</div>;
   }
-}
-
-class DataBoard extends Component {
-  render() {
-    return (
-      <table>
-        { this.props.children }
-      </table>
-    )
-  }
-}
-
-export { BoardHead };
-export { DataBoard };
+});
