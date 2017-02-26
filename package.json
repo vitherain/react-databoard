@@ -49,6 +49,6 @@
   },
   "dependencies": {
     "babel-runtime": "~5.8.20",
-    "react": "~0.13.3"
+    "react": "~0.14.7"
   }
 }
